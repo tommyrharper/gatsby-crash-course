@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 
 const Menu = () => (
   <div style={{
@@ -11,10 +12,10 @@ const Menu = () => (
     display: 'flex',
     justifyContent: 'space-evenly'
   }}>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li><Link to="/">Home</Link></li>
+    <li><Link to="/">Home</Link></li>
+    <li><Link to="/">Home</Link></li>
+    <li><Link to="/">Home</Link></li>
   </ul>
 
   </div>
