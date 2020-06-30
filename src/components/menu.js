@@ -11,12 +11,12 @@ const Menu = () => (
     display: 'flex',
     justifyContent: 'space-evenly'
   }}>
-    
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
   </ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+
   </div>
 )
 
