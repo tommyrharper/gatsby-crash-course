@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 
 export default function Template({data}) {
   const post = data.markdownRemark 
